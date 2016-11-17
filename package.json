@@ -23,13 +23,6 @@
     "url": "https://github.com/AlexWang1987/tinyLoger/issues"
   },
   "homepage": "https://github.com/AlexWang1987/tinyLoger#readme",
-  "dependencies": {},
-  "wbp": {
-    "project": "umd",
-    "entries": {
-      "main": "./main.js"
-    },
-    "source": "src/",
-    "build": "dist/"
-  }
+  "dependencies": {}
 }
+
