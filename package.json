@@ -1,0 +1,35 @@
+{
+  "name": "tinyLoger",
+  "version": "1.0.0",
+  "description": "a small and tiny loger util. easy to understand and use.",
+  "main": "dist/main.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexWang1987/tinyLoger.git"
+  },
+  "keywords": [
+    "tinyLoger"
+  ],
+  "author": "AlexWang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexWang1987/tinyLoger/issues"
+  },
+  "homepage": "https://github.com/AlexWang1987/tinyLoger#readme",
+  "dependencies": {},
+  "wbp": {
+    "project": "umd",
+    "entries": {
+      "main": "./main.js"
+    },
+    "source": "src/",
+    "build": "dist/"
+  }
+}
