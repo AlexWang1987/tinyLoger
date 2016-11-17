@@ -1,6 +1,6 @@
 {
   "name": "tinyLoger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a small and tiny loger util. easy to understand and use.",
   "main": "dist/main.js",
   "directories": {
@@ -25,4 +25,3 @@
   "homepage": "https://github.com/AlexWang1987/tinyLoger#readme",
   "dependencies": {}
 }
-
