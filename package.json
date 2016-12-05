@@ -1,6 +1,6 @@
 {
   "name": "tinyLoger",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "a small and tiny loger util. easy to understand and use.",
   "main": "dist/main.js",
   "directories": {
