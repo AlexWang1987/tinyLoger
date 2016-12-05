@@ -8,7 +8,7 @@
 //  Author: AlexWang
 //  Date: 2016-08-27 22:58:47
 //  QQ Email: 1669499355@qq.com
-//  Last Modified time: 2016-12-05 22:59:27
+//  Last Modified time: 2016-12-06 00:37:25
 //  Description: Loger
 //
 // //////////////////////////////////////////////////////////////////////////////
@@ -43,8 +43,6 @@ class Loger {
   }
 
   _log(type, msg) {
-    msg = JSON.stringify(msg);
-
     let logMsg = `${this.id} -> ${msg}`;
     if (type >= Loger.logLevel) {
       switch (type) {

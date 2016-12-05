@@ -18,7 +18,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 //  Author: AlexWang
 //  Date: 2016-08-27 22:58:47
 //  QQ Email: 1669499355@qq.com
-//  Last Modified time: 2016-12-05 22:59:27
+//  Last Modified time: 2016-12-06 00:37:25
 //  Description: Loger
 //
 // //////////////////////////////////////////////////////////////////////////////
@@ -73,8 +73,6 @@ var Loger = function () {
   }, {
     key: '_log',
     value: function _log(type, msg) {
-      msg = JSON.stringify(msg);
-
       var logMsg = this.id + ' -> ' + msg;
       if (type >= Loger.logLevel) {
         switch (type) {
